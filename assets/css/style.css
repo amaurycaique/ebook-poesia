@@ -1,0 +1,142 @@
+.book-cover-mockup {
+    width: 90%;
+    height: auto;
+    margin-top: 0;
+}
+.author-bio p {
+    font-size: 22px;
+    text-align: justify;
+    text-indent: 30px;
+    padding: 10px;
+}
+.shadow {
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 25%) !important;
+}
+.quote {
+    font-size: 20px;
+}
+.source-name {
+    font-size: 20px;
+}
+.author-section .social-list li {
+    background: rgba(0,0,0,0.1);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    padding-top: 1px;
+}
+.author-section .social-list a {
+    color: #fff;
+    font-size: 35px;
+}
+.author-section .author-pic {
+    /* width: 150px; */
+    /* height: 150px; */
+    width: 80%;
+    height: auto;
+    border:6px inset rgb(236, 236, 236);
+}
+.audience-section .item-icon {
+    font-size: 1.25rem;
+    color: #31b736;
+}
+.audience-section .item-title {
+    font-size: 1.5rem;
+}
+.content-section .item-icon {
+    color: #ed6524;
+}
+.content-section .fa-check-circle {
+    color: #31b736;
+    font-size: 1.3rem;
+}
+.fa-5x {
+    font-size: 5em;
+    color: #ed6524;
+}
+.btn {
+    font-size: 20px;
+}
+.benefits-section .item-heading {
+    font-size: 1.80rem;
+}
+.me-2 {
+    width: 50px;
+    height: 50px;
+}
+.hero-quotes .quote {
+    position: relative;
+    border-left: 4px solid #f5a782;
+    font-style: italic;
+    font-size: 20px;
+}
+.item-desc {
+    font-size: 20px;
+}
+.section-intro {
+    font-size: 20px;
+}
+.button-text {
+    font-size: 18px;
+}
+
+
+.pulse {
+    animation: animate 3s linear infinite;
+}
+
+.pulse a 
+{   position: relative; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    font-size: 30px; 
+    color: #fff; 
+    height: 100%; 
+    cursor: pointer; 
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(255, 88, 11, 0.7), 0 0 0 0 rgba(255, 92, 16, 0.7)
+    }
+
+    40% {
+        box-shadow: 0 0 0 20px rgb(255, 109, 74, 0), 0 0 0 0 rgb(255, 109, 74, 0.7)
+    }
+
+    80% {
+        box-shadow: 0 0 0 20px rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0)
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgb(255, 109, 74, 0), 0 0 0 30px rgb(255, 109, 74, 0)
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 767px) {
+     .row {
+        flex-direction: column-reverse;
+    }
+    .img-fluid-mockup {
+            max-width: 100%;
+            height: auto;
+            margin-top: -20px;
+    }
+    .me-2 {
+        width: 60px;
+        height: 60px;
+    }
+    .logo-wrapper {
+        padding: 10px;
+    }
+    .item_veri {
+        color:#31b736;
+        font-size: 1.5rem;;
+    }
+    .book-cover {
+        width: 90%;
+    }
+}
